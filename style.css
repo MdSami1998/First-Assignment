@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.text-color{
+    color: tomato;
+}
+.flexible-container{
+    display: flex;
+}
+.width{
+    width: 50%;
+    padding-left:5%;
+}
+.margin{
+    margin-top: 150px;
+}
+.width img{
+    padding-left: 50%;
+    width: 80%;
+}
+.left-border{
+    border-left: 7px solid;
+    border-color: tomato;
+    border-image-slice: 1 ;
+    padding-left: 10px;
+}
+.button{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
