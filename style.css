@@ -1,35 +1,119 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 45px;
 }
 .text-color{
-    color: tomato;
+    color: rgb(115, 6, 240);
 }
 .flexible-container{
     display: flex;
+    margin-bottom: 90px;
 }
+.align{
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+}
+
 .width{
     width: 50%;
     padding-left:5%;
 }
+
 .margin{
     margin-top: 150px;
 }
+.flexible-container p{
+    font-size: 25px ;
+    font-weight: 500;
+}
+
 .width img{
-    padding-left: 50%;
+    padding-left: 15%;
     width: 80%;
 }
+
 .left-border{
     border-left: 7px solid;
     border-color: tomato;
     border-image-slice: 1 ;
     padding-left: 10px;
 }
+
 .button{
     text-decoration: none;
-    background-color: tomato;
-    color: white;
+    background-color: rgb(176, 67, 226);
+    color: rgb(255, 255, 255);
     font-weight: 600;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.illutrators{
+    width: 60%;
+    padding-left: 30px;
+}
+.mission{
+    width: 50%;
+    padding-left:2%;
+    padding-right: 2%;
+    
+}
+#first-BG{
+    background-image: linear-gradient(rgb(194, 207, 120),rgb(127, 127, 196));
+    margin-left:20px ;
+    border-radius: 10px;
+}
+#second-BG{
+    background-image: linear-gradient(rgba(135, 233, 157, 0.849),rgb(104, 169, 223));
+    margin-left:20px ;
+    border-radius: 10px;
+}
+#third-BG{
+    background-image: linear-gradient(rgba(253, 104, 221, 0.747),rgb(238, 142, 142));
+    margin-left:20px ;
+    border-radius: 10px;
+}
+.develop-sec{
+    padding-top: 10px;
+    padding-right: 200px;
+}
+.img-margin{
+    width: 60%;
+    padding-left: 100px;
+}
+.BG-banner{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-y: 60px;
+}
+.img-padding{
+    width: 100%;
+    padding-right: 100px;
+}
+.global-sec{
+    padding-left:200px;
+    padding-top: 50px;
+}
+.second-BG-banner{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: bottom right;
+    
+}
+.width-1{
+    width: 70%;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
